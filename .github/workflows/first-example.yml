@@ -7,8 +7,13 @@ jobs:
       - name: Welcome message
         uses: actions/checkout@v4
 
-      - name: List files
-        run: 'ls -la'
+      - name: Execute Shell scipt
+        run: ./asci.sh
 
-      - name: Read file
-        run: cat README.md  
+
+        
+      # - name: List files
+      #   run: 'ls -la'
+
+      # - name: Read file
+      #   run: cat README.md  
