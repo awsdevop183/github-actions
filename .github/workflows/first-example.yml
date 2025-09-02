@@ -12,7 +12,7 @@ jobs:
           pwd
           ls -l
           chmod +x asci.sh
-          ./asci.sh
+          sh asci.sh
 
 
         
