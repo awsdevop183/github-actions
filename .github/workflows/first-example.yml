@@ -9,7 +9,7 @@ jobs:
 
       - name: Execute Shell scipt
         run: |
-          chmod +x asci.sh
+          chmod +x ./asci.sh
           ./asci.sh
 
 
