@@ -1,0 +1,8 @@
+name: My first Workflo
+on: [push]
+jobs:
+  first_job:
+    runs-on: [self-hosted, Linux]
+    steps:
+      - name: Welcome message
+        run: echo hello world!
