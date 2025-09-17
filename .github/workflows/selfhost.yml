@@ -9,3 +9,4 @@ jobs:
           echo hello world!
           whoami
           ls -l
+          pwd
